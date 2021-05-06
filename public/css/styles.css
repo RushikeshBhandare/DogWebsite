@@ -1,0 +1,110 @@
+body{
+
+    margin: 0 0;
+    padding: 0 0;
+   
+}
+
+h1{
+    font-size: 40px;
+    color: blue;
+}
+
+.contener{
+    width: 1349px;
+    height: 700px;
+    margin: 0;
+    padding: 0;
+     background-color: red;
+    background-size: auto;
+    background-image: url('/img/moti_One.jpg');
+    background-repeat: no-repeat;
+    background-size: 1440px 700px;
+}
+
+.LogoText{
+    margin: 50px ;
+    padding: 50px 50px;
+    width: 600px;
+    height: 400px;
+    /* background-color: green; */
+    position: absolute;
+}
+
+.contener img{
+    width: 1349;
+    height: 720px;
+}
+
+.LogoText p{
+   font-size: 60px;
+   font-family: 'Itim', cursive;
+   color: grey;
+
+}
+
+.DogName{
+    font-size: 65px;
+    font-family: 'Itim', cursive;
+    color: black;
+   
+}
+
+/* images */
+.Galeary{
+    width: 1349px;
+    height: 420px;
+    /* background-color: gray; */
+    display:flex
+    
+}
+
+
+
+.blockImg{
+    width: 650px;
+    height: 380px;
+    background-color: red;
+    margin: 20px;
+    box-shadow: 5px 10px #f0ecec;
+}
+
+.Description{
+    width: 650px;
+    height: 380px;
+    /* background-color: red; */
+    margin: 20px;
+
+}
+.blockImg img{
+    width: 650px;
+    height: 380px;
+}
+
+.Description{
+    padding: 20px;
+    font-size: 24px;
+    font-family: 'Itim', cursive;
+    /* color: blue; */
+}
+.disc{
+    color: rgb(98, 139, 127);
+}
+
+/* footer */
+footer{
+
+    width: 1349px;
+    height: 50px;
+    background-color: black;
+    margin: 0;
+    padding: 0px;
+}
+
+
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
