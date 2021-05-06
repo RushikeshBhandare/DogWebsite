@@ -5,6 +5,9 @@ const viewPath = path.join(__dirname, '../views')
 const publicPath = path.join(__dirname, '../public')
 
 const app = express()
+
+const port = process.env.PORT || 3000 
+
 app.set('view engine', 'hbs')
 app.set('views', viewPath)
 
@@ -14,6 +17,6 @@ app.get('', (req, res)=>{
     res.render('index')
 })
 
-app.listen('3000', ()=>{
+app.listen(port, ()=>{
     console.log('Server start')
 })
